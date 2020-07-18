@@ -574,6 +574,7 @@ int Play_midi(char *name){
 }
 
 int main(int argc, char* argv[]){
+    yinyu_fixer = atoi(argv[2]);
     Play_midi(argv[1]);
 
     return 0;
